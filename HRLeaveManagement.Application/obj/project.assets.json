@@ -1,0 +1,90 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "HRLeaveManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/HRLeaveManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HRLeaveManagement.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HRLeaveManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../HRLeaveManagement.Domain/HRLeaveManagement.Domain.csproj",
+      "msbuildProject": "../HRLeaveManagement.Domain/HRLeaveManagement.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "HRLeaveManagement.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dany-PC\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj",
+      "projectName": "HRLeaveManagement.Application",
+      "projectPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj",
+      "packagesPath": "C:\\Users\\Dany-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Dany-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

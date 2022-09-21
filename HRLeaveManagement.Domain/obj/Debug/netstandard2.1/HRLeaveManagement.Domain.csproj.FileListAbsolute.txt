@@ -1,0 +1,10 @@
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\bin\Debug\netstandard2.1\HRLeaveManagement.Domain.deps.json
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\bin\Debug\netstandard2.1\HRLeaveManagement.Domain.dll
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\bin\Debug\netstandard2.1\HRLeaveManagement.Domain.pdb
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.csproj.AssemblyReference.cache
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.AssemblyInfo.cs
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.dll
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Domain\obj\Debug\netstandard2.1\HRLeaveManagement.Domain.pdb
