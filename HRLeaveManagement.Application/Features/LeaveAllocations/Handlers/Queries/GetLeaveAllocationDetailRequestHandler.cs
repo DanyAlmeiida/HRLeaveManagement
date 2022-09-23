@@ -11,9 +11,9 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocations.Handlers.Queri
     public class GetLeaveAllocationDetailRequestHandler : IRequestHandler<GetLeaveAllocationDetailRequest, LeaveAllocationDto>
     {
         private readonly ILeaveAllocationRepository _leaveAllocationRepository;
-        private Mapper _mapper;
+        private IMapper _mapper;
 
-        public GetLeaveAllocationDetailRequestHandler(ILeaveAllocationRepository leaveAllocationRepository, Mapper mapper)
+        public GetLeaveAllocationDetailRequestHandler(ILeaveAllocationRepository leaveAllocationRepository, IMapper mapper)
         {
             _leaveAllocationRepository = leaveAllocationRepository;
             _mapper = mapper;

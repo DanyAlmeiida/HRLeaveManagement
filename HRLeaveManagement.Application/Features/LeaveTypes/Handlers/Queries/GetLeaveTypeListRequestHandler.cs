@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
 using HRLeaveManagement.Application.DTOs;
-using HRLeaveManagement.Application.Features.LeaveType.Requests.Queries;
+using HRLeaveManagement.Application.Features.LeaveTypes.Requests.Queries;
 using HRLeaveManagement.Application.Persistence.Contracts;
 using MediatR;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace HRLeaveManagement.Application.Features.LeaveType.Handlers.Queries
+namespace HRLeaveManagement.Application.Features.LeaveTypes.Handlers.Queries
 {
     public class GetLeaveTypeListRequestHandler : IRequestHandler<GetLeaveTypeListRequest, List<LeaveTypeDto>>
     {
