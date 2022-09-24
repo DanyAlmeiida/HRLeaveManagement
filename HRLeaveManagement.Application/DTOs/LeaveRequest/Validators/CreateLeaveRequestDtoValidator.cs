@@ -3,7 +3,7 @@ using HRLeaveManagement.Application.Persistence.Contracts;
 
 namespace HRLeaveManagement.Application.DTOs.LeaveRequest.Validators
 {
-    public class CreateLeaveRequestDtoValidator : AbstractValidator<LeaveRequestDto>
+    public class CreateLeaveRequestDtoValidator : AbstractValidator<CreateLeaveRequestDto>
     {
         private readonly ILeaveRequestRepository repository;
 
