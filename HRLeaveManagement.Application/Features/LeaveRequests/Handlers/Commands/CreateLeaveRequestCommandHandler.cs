@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using FluentValidation;
 using HRLeaveManagement.Application.DTOs.LeaveRequest.Validators;
+using HRLeaveManagement.Application.Exceptions;
 using HRLeaveManagement.Application.Features.LeaveRequests.Requests.Commands;
 using HRLeaveManagement.Application.Persistence.Contracts;
 using HRLeaveManagement.Domain;
