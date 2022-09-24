@@ -34,7 +34,7 @@ namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Commands
                 mapper.Map(request.LeaveRequest, leaveRequest);
 
                 await repository.Update(leaveRequest);
-                
+
             }
             else if (request.ChangeLeaveRequestApproval != null)
             {

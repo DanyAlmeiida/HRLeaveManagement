@@ -1,8 +1,5 @@
 ﻿using FluentValidation;
 using HRLeaveManagement.Application.Persistence.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace HRLeaveManagement.Application.DTOs.LeaveAllocation.Validators
 {
@@ -19,7 +16,7 @@ namespace HRLeaveManagement.Application.DTOs.LeaveAllocation.Validators
                 .GreaterThan(0).WithMessage("{PropertyName} must be greater than {ComparisonValue}")
                 .MustAsync(async (id, token) =>
                 {
-                     var leaveTypeExists = await repository.Exists(id);
+                    var leaveTypeExists = await repository.Exists(id);
                     return leaveTypeExists;
                 })
                 .WithMessage("{PropertyName} does not exist.");

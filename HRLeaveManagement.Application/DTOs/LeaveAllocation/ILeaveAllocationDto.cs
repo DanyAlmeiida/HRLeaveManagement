@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HRLeaveManagement.Application.DTOs.LeaveAllocation
+﻿namespace HRLeaveManagement.Application.DTOs.LeaveAllocation
 {
     public interface ILeaveAllocationDto
     {

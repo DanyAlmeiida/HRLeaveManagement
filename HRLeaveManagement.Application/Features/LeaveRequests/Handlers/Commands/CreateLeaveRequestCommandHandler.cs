@@ -5,7 +5,6 @@ using HRLeaveManagement.Application.Features.LeaveRequests.Requests.Commands;
 using HRLeaveManagement.Application.Persistence.Contracts;
 using HRLeaveManagement.Domain;
 using MediatR;
-using System;
 using System.Threading;
 using System.Threading.Tasks;
 
