@@ -2,9 +2,6 @@
 using HRLeaveManagement.Application.Features.LeaveRequests.Requests.Commands;
 using HRLeaveManagement.Application.Persistence.Contracts;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -15,7 +12,7 @@ namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Commands
         private readonly ILeaveRequestRepository repository;
         private readonly IMapper mapper;
 
-        public DeleteLeaveRequestCommandHandler(ILeaveRequestRepository repository,IMapper mapper)
+        public DeleteLeaveRequestCommandHandler(ILeaveRequestRepository repository, IMapper mapper)
         {
             this.repository = repository;
             this.mapper = mapper;

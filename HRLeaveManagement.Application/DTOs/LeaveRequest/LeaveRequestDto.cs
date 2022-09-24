@@ -3,7 +3,7 @@ using System;
 
 namespace HRLeaveManagement.Application.DTOs
 {
-    public class LeaveRequestDto : BaseDto
+    public class LeaveRequestDto : BaseDto, ILeaveRequestDto
     {
         public string RequestingEmployeeId { get; set; }
         public DateTime StartDate { get; set; }

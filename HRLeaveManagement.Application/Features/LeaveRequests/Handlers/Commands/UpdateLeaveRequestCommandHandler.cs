@@ -26,12 +26,14 @@ namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Commands
                 mapper.Map(request.LeaveRequest, leaveRequest);
 
                 await repository.Update(leaveRequest);
-                return Unit.Value;
+                
             }
-            else if(request.ChangeLeaveRequestApproval != null)
+            else if (request.ChangeLeaveRequestApproval != null)
             {
                 await repository.ChangeApprovalStatus(leaveRequest, request.ChangeLeaveRequestApproval.Approved);
             }
+
+            return Unit.Value;
         }
     }
 }

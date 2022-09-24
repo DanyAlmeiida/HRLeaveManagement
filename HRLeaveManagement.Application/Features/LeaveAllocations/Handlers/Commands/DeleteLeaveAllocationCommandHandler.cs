@@ -12,7 +12,7 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocations.Handlers.Comma
         private readonly ILeaveAllocationRepository repository;
         private readonly IMapper mapper;
 
-        public DeleteLeaveAllocationCommandHandler(ILeaveAllocationRepository repository,IMapper mapper)
+        public DeleteLeaveAllocationCommandHandler(ILeaveAllocationRepository repository, IMapper mapper)
         {
             this.repository = repository;
             this.mapper = mapper;
