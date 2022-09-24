@@ -23,7 +23,7 @@ namespace HRLeaveManagement.Application.Features.LeaveTypes.Handlers.Commands
         {
             var leaveType = await repository.Get(request.Id);
             if (leaveType == null)
-                throw new NotFoundException(nameof(LeaveType),request.Id);
+                throw new NotFoundException(nameof(LeaveType), request.Id);
 
             await repository.Delete(leaveType);
 
