@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj",
+        "projectName": "HRLeaveManagement.Application",
+        "projectPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\Dany-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dany-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj",
+        "projectName": "HRLeaveManagement.Domain",
+        "projectPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\HRLeaveManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dany-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dany-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj",
+        "projectName": "HRLeaveManagement.Persistence",
+        "projectPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Persistence\\HRLeaveManagement.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Dany-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dany-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\Dany-PC\\source\\repos\\HRLeaveManagement\\HRLeaveManagement.Application\\HRLeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
