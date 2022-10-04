@@ -28,7 +28,7 @@ namespace HRLeaveManagement.Application.Features.LeaveAllocations.Handlers.Comma
                 throw new ValidationException(validationResult);
 
             var leaveAllocation = mapper.Map<LeaveAllocation>(request.LeaveAllocation);
-            leaveAllocation = await repository.Update(leaveAllocation);
+            leaveAllocation = await repository.Add(leaveAllocation);
 
             return leaveAllocation.Id;
         }

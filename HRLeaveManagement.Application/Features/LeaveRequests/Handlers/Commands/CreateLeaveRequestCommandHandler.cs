@@ -28,7 +28,7 @@ namespace HRLeaveManagement.Application.Features.LeaveRequests.Handlers.Commands
                 throw new ValidationException(validationResult);
 
             var leaveRequest = mapper.Map<LeaveRequest>(request.LeaveRequestDto);
-            leaveRequest = await leaveRequestRepository.Update(leaveRequest);
+            leaveRequest = await leaveRequestRepository.Add(leaveRequest);
 
             return leaveRequest.Id;
         }

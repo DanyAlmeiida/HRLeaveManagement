@@ -3,3 +3,13 @@ C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\ob
 C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\obj\Debug\netstandard2.1\HRLeaveManagement.Persistence.AssemblyInfoInputs.cache
 C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\obj\Debug\netstandard2.1\HRLeaveManagement.Persistence.AssemblyInfo.cs
 C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\obj\Debug\netstandard2.1\HRLeaveManagement.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\bin\Debug\netstandard2.1\HRLeaveManagement.Persistence.deps.json
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\bin\Debug\netstandard2.1\HRLeaveManagement.Persistence.dll
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\bin\Debug\netstandard2.1\HRLeaveManagement.Persistence.pdb
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\bin\Debug\netstandard2.1\HRLeaveManagement.Application.dll
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\bin\Debug\netstandard2.1\HRLeaveManagement.Domain.dll
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\bin\Debug\netstandard2.1\HRLeaveManagement.Application.pdb
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\bin\Debug\netstandard2.1\HRLeaveManagement.Domain.pdb
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\obj\Debug\netstandard2.1\HRLeaveManagement.Persistence.csproj.CopyComplete
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\obj\Debug\netstandard2.1\HRLeaveManagement.Persistence.dll
+C:\Users\Dany-PC\source\repos\HRLeaveManagement\HRLeaveManagement.Persistence\obj\Debug\netstandard2.1\HRLeaveManagement.Persistence.pdb
